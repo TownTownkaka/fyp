@@ -2,6 +2,9 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "fyp",
   "compatibility_date": "2026-10-24",
+  "observability": {
+    "enabled": true
+  },
   "assets": {
     "directory": "./build/web",
     "not_found_handling": "single-page-application"
